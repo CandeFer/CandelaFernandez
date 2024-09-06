@@ -5,10 +5,11 @@
 * {
   margin: 0;
   padding: 0;
-
+  
+  background-color: #F5F5DC;
 }
 
-section h2{
+section h2 {
   text-align: center;
   font-family: "Kalam", cursive;
   font-weight: 700;
@@ -36,6 +37,7 @@ section h2{
       height: 50px;
       top: 5px;
       left: 20px;
+      background-color: #4CAF50;
 
     }
 
@@ -44,25 +46,27 @@ section h2{
       position: relative;
       top: -30px;
       margin-right: 20px;
+     
 
 
       ul {
         list-style: none;
+        background-color: #4CAF50;
 
         li {
           display: inline-block;
           font-family: "Kalam", cursive;
           font-weight: 400;
           font-style: normal;
-       
           margin: 0 10px;
 
-          a{
+          a {
+            background-color: #4CAF50;
             text-decoration: none;
             color: white;
           }
 
-          a:hover{
+          a:hover {
             color: #FFEB3B;
           }
         }
@@ -77,19 +81,19 @@ section h2{
   }
 
   #nosotros {
-    margin: 30px 0;
-
   
+    margin: 30px;
+
 
     .imagen-texto {
 
       padding: 20px;
-      margin: 0 auto;
+  
 
       img {
         float: left;
         margin-right: 20px;
-
+        display: block;
         border-radius: 10px;
       }
 
@@ -97,6 +101,7 @@ section h2{
 
 
       p {
+
         width: 500px;
         font-family: "Lato", sans-serif;
         font-weight: 400;
@@ -134,9 +139,9 @@ section h2{
     }
   }
 
-  #reservas form{
+  #reservas form {
     display: inline-block;
-    
+
   }
 
 
