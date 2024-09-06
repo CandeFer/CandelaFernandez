@@ -20,7 +20,7 @@ section h2 {
 
 
 #contenedor {
-  width: 1000px;
+  width: 1024px;
   margin: 0 auto;
   background-color: #F5F5DC;
 
@@ -82,14 +82,11 @@ section h2 {
   }
 
   #nosotros {
-
     margin: 30px 0;
 
 
     .imagen-texto {
-
       padding: 20px;
-
 
       img {
         display: block;
@@ -97,9 +94,6 @@ section h2 {
         margin-right: 20px;
         border-radius: 10px;
       }
-
-
-
 
       p {
         width: 500px;
@@ -113,7 +107,6 @@ section h2 {
 
   #comidas {
     margin: 20px;
-
 
     ul {
       width: 800px;
@@ -144,9 +137,5 @@ section h2 {
     display: inline-block;
 
   }
-
-
-
-
 
 }
