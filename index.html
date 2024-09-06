@@ -1,55 +1,79 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurante Vegano</title>
+    <title>Vegan Food</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div id="contenedor">
     <header>
-        <h1>Restaurante Vegano Verde Vida</h1>
+        <h1 id="logo">Vegan Food</h1>
         <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
-                <li><a href="#menu">Menú</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
+        <ul>
+            <li>Nosotros</li>
+            <li>Comidas</li>
+            <li>Reservas</li>
+            <li>Contacto</li>
+        </ul>
+    </nav>
     </header>
 
-    <section id="inicio" class="hero">
-        <h2>Bienvenido a Verde Vida</h2>
-        <p>Donde lo natural es el sabor.</p>
+    <section id="banner">
+        <figure>
+            <img src="./img/verduras2.png" alt="Verduras de nuestra huerta">
+        </figure>
     </section>
+    <section id="nosotros">
+        <h2>Nosotros</h2>
+        <div class="imagen-texto">
+           
+                <img src="./img/chef.png" alt="Fotografia de uno de nuestros chef">
+            
 
-    <section id="sobre-nosotros" class="about">
-        <h2>Sobre Nosotros</h2>
-        <p>En Verde Vida, nos dedicamos a ofrecer platos 100% veganos, elaborados con ingredientes frescos y de origen local. Creemos en el poder de una alimentación sana y sostenible para cuidar del planeta y de nuestros clientes.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis commodi minima nisi molestias ex, delectus porro autem corporis voluptatum nostrum beatae odio harum ipsa illo, laboriosam fugiat error numquam accusantium?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quidem molestiae quis! Doloribus voluptates similique consequuntur libero amet. Error cum quos itaque eligendi vel dolores voluptatem cumque repellat, tempora eum.
+            </p>
+        </div>
+      
     </section>
+    <section id="comidas">
+        <h2>Comidas</h2>
 
-    <section id="menu" class="menu">
-        <h2>Menú</h2>
         <ul>
-            <li>
-                <h3>Ensalada de Quinoa</h3>
-                <p>Quinoa, aguacate, pepino, tomate cherry, aliño de limón.</p>
-            </li>
-            <li>
-                <h3>Hamburguesa de Garbanzos</h3>
-                <p>Pan integral, garbanzos, espinaca, aguacate, cebolla caramelizada.</p>
-            </li>
-            <li>
-                <h3>Pizza Vegana</h3>
-                <p>Masa de espelta, tomate, albahaca, queso vegano, champiñones.</p>
-            </li>
+            <li><img src="./img/comida.png" alt="Imagen de comida"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id maxime architecto corporis vel doloremque deserunt fuga nam? Animi mollitia consequatur ad dicta deserunt reiciendis illum veritatis omnis labore alias!</p></li>
+            <li><img src="/img/comida2.png" alt="Imagen de comida"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id maxime architecto corporis vel doloremque deserunt fuga nam? Animi mollitia consequatur ad dicta deserunt reiciendis illum veritatis omnis labore alias!</p></li>
+            <li><img src="./img/comida6.png" alt="Imagen de comida"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id maxime architecto corporis vel doloremque deserunt fuga nam? Animi mollitia consequatur ad dicta deserunt reiciendis illum veritatis omnis labore alias!</p></li>
+            <li><img src="./img/comida7.png" alt="Imagen de comida"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id maxime architecto corporis vel doloremque deserunt fuga nam? Animi mollitia consequatur ad dicta deserunt reiciendis illum veritatis omnis labore alias!</p></li>
+            <li><img src="./img/comida8.png" alt="Imagen de comida"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id maxime architecto corporis vel doloremque deserunt fuga nam? Animi mollitia consequatur ad dicta deserunt reiciendis illum veritatis omnis labore alias!</p></li>
+            <li><img src="./img/comida5.png" alt="Imagen de comida"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id maxime architecto corporis vel doloremque deserunt fuga nam? Animi mollitia consequatur ad dicta deserunt reiciendis illum veritatis omnis labore alias!</p></li>
         </ul>
     </section>
+    <section id="reservas">
+        <h2>Reservas</h2>
 
-    <footer id="contacto">
-        <p>Visítanos en Calle Verde, 123, Ciudad Vegana</p>
-        <p>Email: contacto@verdevida.com</p>
-    </footer>
+        <form action="">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+        
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono">
+        
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </form>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+    </section>
+</div>    
+
+<footer id="footer">
+
+</footer>
 </body>
 </html>
