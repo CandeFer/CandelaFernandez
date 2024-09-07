@@ -5,16 +5,19 @@
 * {
   margin: 0;
   padding: 0;
-
-
 }
 
-section h2 {
+body{
+  background-color: #F5F5DC;
+}
+
+h2 {
   text-align: center;
   font-family: "Kalam", cursive;
   font-weight: 700;
   font-style: normal;
   color: #8B4513;
+  font-size: 2rem;
 }
 
 
@@ -37,7 +40,7 @@ section h2 {
       height: 50px;
       top: 5px;
       left: 20px;
-      background-color: #4CAF50;
+
 
     }
 
@@ -51,7 +54,7 @@ section h2 {
 
       ul {
         list-style: none;
-        background-color: #4CAF50;
+    
 
         li {
           display: inline-block;
@@ -61,7 +64,7 @@ section h2 {
           margin: 0 10px;
 
           a {
-            background-color: #4CAF50;
+  
             text-decoration: none;
             color: white;
           }
@@ -83,24 +86,28 @@ section h2 {
 
   #nosotros {
     margin: 30px 0;
+    height: 350px;
 
 
     .imagen-texto {
+      margin: 0 auto;
       padding: 20px;
+      width: 800px;
 
       img {
         display: block;
-        float: left;
-        margin-right: 20px;
+        float: left;    margin-right: 20px;
         border-radius: 10px;
       }
 
       p {
-        width: 500px;
+    
+        width: 712px;
         font-family: "Lato", sans-serif;
         font-weight: 400;
         font-style: normal;
         height: auto;
+        font-size: 1.2rem;
       }
     }
   }
@@ -120,6 +127,10 @@ section h2 {
         img {
           border-radius: 10px;
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        h3{
+          font-family: "Lato", sans-serif;
         }
 
         p {
