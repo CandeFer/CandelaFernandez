@@ -48,14 +48,15 @@ h2 {
       height: 50px;
       top: 5px;
       left: 20px;
+      float:left ;
     }
 
     nav {
       float: right;
       position: relative;
-      top: -30px;
-      margin-right: 20px;
+      line-height: 60px;
 
+      /* margin-right: 20px; */
 
 
       ul {
