@@ -10,7 +10,6 @@
 body {
   background-color: #F5F5DC;
   background-image: url(./img/motivo2.png);
-
 }
 
 h2 {
@@ -30,8 +29,11 @@ h2 {
   background-color: #F5F5DC;
 
   header {
+    width: 1024px;
     background-color: #4CAF50;
     height: 62px;
+    position: fixed;
+    z-index: 5;
 
     #logo {
       background-image: url(./img/logonew.png);
@@ -42,8 +44,6 @@ h2 {
       height: 50px;
       top: 5px;
       left: 20px;
-
-
     }
 
     nav {
