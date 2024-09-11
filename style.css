@@ -191,12 +191,13 @@ h2 {
 
     ul {
       list-style: none;
-    
-      display: inline;
+
+
       li {
         width: 500px;
-        margin: 12px;
-        
+        padding: 5px;
+        display: inline-block;
+        margin-bottom: 40px;
 
         h3 {
           font-family: "Lato", sans-serif;
@@ -210,15 +211,30 @@ h2 {
           margin-bottom: 18px;
         }
 
-        img{
+        img {
           border-radius: 10px;
+        }
+
+        p {
+          font-family: "Lato", sans-serif;
         }
       }
 
     }
 
+  }
 
+  #contacto {
 
+    .mapa {
+      border: 4 px solid #4CAF50;
+      width: 500px;
+    }
+
+    iframe {
+      width: 500px;
+
+    }
   }
 
 }
