@@ -48,7 +48,7 @@ h2 {
       height: 50px;
       top: 5px;
       left: 20px;
-      float:left ;
+      float: left;
     }
 
     nav {
@@ -87,13 +87,15 @@ h2 {
   }
 
   #historia {
+    position: relative;
+    top: 100px;
+    margin-bottom: 150px;
 
+    img {
+      display: block;
+      border-radius: 10px;
+    }
 
-      img {
-        display: block;
-        border-radius: 10px;
-      }
-    
 
     p {
       font-family: "Lato", sans-serif;
@@ -105,7 +107,6 @@ h2 {
       font-size: 1.4em;
       text-align: center;
       padding: 10px 20px;
-    
       width: 600px;
     }
   }
@@ -193,7 +194,7 @@ h2 {
 
 }
 
-footer{
+footer {
 
   background-color: #E6E6FA;
 }
