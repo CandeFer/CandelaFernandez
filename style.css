@@ -226,18 +226,41 @@ h2 {
 
   #contacto {
 
-    .mapa {
-      border: 4 px solid #4CAF50;
-      width: 500px;
-    }
+      .mapa {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        width: 500px;
+        border-radius: 5px;
+        display: inline-block;
+      }
 
-    iframe {
-      width: 500px;
+      iframe {
+        width: 500px;
+        border-radius: 5px;
+      }
 
+      form {
+        display: inline-block;
+        width: 500px;
+
+        label{
+          margin-bottom: 7px;
+        }
+        input{
+          margin-bottom: 10px;
+        }
+
+        input, label, textarea {
+        width: 90%;
+          font-family: "Lato", sans-serif;
+          display: block;
+        }
+
+        
+      }
     }
   }
 
-}
+
 
 footer {
 
