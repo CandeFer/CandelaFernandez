@@ -10,7 +10,6 @@
 body {
   background-color: #F5F5DC;
   background-image: url(./img/motivo.png);
-
 }
 
 h2 {
@@ -28,6 +27,7 @@ h2 {
   width: 1024px;
   margin: 0 auto;
   background-color: #F5F5DC;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
   header {
     width: 1024px;
@@ -234,25 +234,23 @@ h2 {
 
     .mapa {
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-      width: 500px;
+      width: 480px;
       border-radius: 5px;
       display: inline-block;
+      margin-top: 45px;
     }
 
     iframe {
-      width: 500px;
+      width: 480px;
       border-radius: 5px;
     }
 
     form {
       display: inline-block;
-      width: 500px;
+      width: 480px;
       margin-left: 12px;
       font-family: "Lato", sans-serif;
    
-    
-
-
       legend {
         text-align: center;
       }
@@ -263,15 +261,12 @@ h2 {
       }
 
 
-
-
-
       input,
       label,
       textarea {
         display: block;
         padding: 6px;
-        width: 450px;
+        width: 440px;
         font-family: "Lato", sans-serif;
        
       }
