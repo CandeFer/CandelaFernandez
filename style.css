@@ -171,6 +171,9 @@ h2 {
           color: #F5F5DC;
         }
 
+        figure {
+          margin-bottom: 15px;
+        }
 
         img {
           border-radius: 10px;
@@ -317,7 +320,7 @@ footer {
   text-align: center;
   padding: 20px;
 
-  address{
+  address {
     color: white;
     margin-bottom: 10px;
   }
@@ -338,8 +341,9 @@ footer {
           text-decoration: none;
           color: #F5F5DC;
         }
-        a :hover{
-          color: #FFEB3B; 
+
+        a :hover {
+          color: #FFEB3B;
         }
 
         span {
@@ -349,22 +353,25 @@ footer {
     }
   }
 
-  .telefono-mail{
-    ul{
+  .telefono-mail {
+    ul {
       list-style-type: none;
-      li{
+
+      li {
         display: inline-block;
         margin: 4px 10px;
-        a{
+
+        a {
           text-decoration: none;
           color: #F5F5DC;
         }
-        a:hover{
+
+        a:hover {
           color: #FFEB3B;
         }
       }
     }
-   
+
   }
 
   small {
