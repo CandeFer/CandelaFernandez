@@ -262,7 +262,7 @@ h2 {
       legend {
         text-align: center;
         font-size: 1.6rem;
-  
+
       }
 
       fieldset {
@@ -312,13 +312,63 @@ h2 {
 
 
 footer {
-  background-color: #E6E6FA;
-
+  background-color: #4CAF50;
+  font-family: "Lato", sans-serif;
   text-align: center;
   padding: 20px;
 
+  address{
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .redes-sociales {
+    p {
+      color: #ceeedb;
+    }
+
+    ul {
+      list-style-type: none;
+
+      li {
+        display: inline-block;
+        margin: 5px 8px;
+
+        a {
+          text-decoration: none;
+          color: #F5F5DC;
+        }
+        a :hover{
+          color: #FFEB3B; 
+        }
+
+        span {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+
+  .telefono-mail{
+    ul{
+      list-style-type: none;
+      li{
+        display: inline-block;
+        margin: 4px 10px;
+        a{
+          text-decoration: none;
+          color: #F5F5DC;
+        }
+        a:hover{
+          color: #FFEB3B;
+        }
+      }
+    }
+   
+  }
+
   small {
-    font-family: "Lato", sans-serif;
+    color: #ceeedb;
     margin-top: 50px;
   }
 
