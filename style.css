@@ -25,6 +25,7 @@ h2 {
 
 #contenedor {
   width: 1024px;
+  height: 100%;
   margin: 0 auto;
   background-color: #F5F5DC;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -232,12 +233,14 @@ h2 {
 
   #contacto {
 
+
     .mapa {
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
       width: 480px;
       border-radius: 5px;
-      display: inline-block;
       margin-top: 45px;
+      display: inline-block;
+
     }
 
     iframe {
@@ -248,29 +251,36 @@ h2 {
     form {
       display: inline-block;
       width: 480px;
-      margin-left: 12px;
       font-family: "Lato", sans-serif;
-   
+
+
       legend {
         text-align: center;
+        font-size: 1.6rem;
+        padding-top: 10px;
       }
 
       fieldset {
-        padding-top: 15px;
+        padding-bottom: 20px;
         border-radius: 4px;
       }
 
+      input {
+        margin-top: 10px;
+      }
 
       input,
       label,
       textarea {
         display: block;
-        padding: 6px;
+        padding: 6px 8px;
         width: 440px;
         font-family: "Lato", sans-serif;
-       
+
       }
+
       textarea {
+        margin-top: 10px;
         height: 10vh;
       }
 
@@ -280,9 +290,13 @@ h2 {
         margin-top: 45px;
         padding: 10px 14px;
         border-radius: 5px;
-        margin-left: 26%;
+        margin-left: 28%;
         width: 200px;
         font-weight: 900;
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        font-size: 1.1rem;
 
       }
 
@@ -295,6 +309,13 @@ h2 {
 
 footer {
   background-color: #E6E6FA;
-  height: 70px;
-  margin-top: 25px;
+
+  text-align: center;
+  padding: 20px;
+
+  small {
+    font-family: "Lato", sans-serif;
+    margin-top: 50px;
+  }
+
 }
