@@ -319,6 +319,66 @@ h2 {
       }
 
     }
+    address {
+      text-align: center;
+      font-family: "Lato", sans-serif;
+      color: #4CAF50;
+      margin-bottom: 10px;
+    }
+
+    .redes-sociales {
+      text-align: center;
+   
+      p {
+        color: #4CAF50;
+      }
+  
+      ul {
+        list-style-type: none;
+  
+        li {
+          display: inline-block;
+          margin: 5px 8px;
+  
+          a {
+            text-decoration: none;
+            color: black;
+          }
+  
+          a :hover {
+            color: #4CAF50;
+          }
+  
+          span {
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+
+    .telefono-mail { 
+      text-align: center;
+      font-family: "Lato", sans-serif;
+      padding: 10px 0;
+      ul {
+        list-style-type: none;
+  
+        li {
+          display: inline-block;
+          margin: 4px 10px;
+  
+          a {
+            text-decoration: none;
+            color: black;
+          }
+  
+          a:hover {
+            color: #4CAF50;
+          }
+        }
+      }
+  
+    }
   }
 }
 
@@ -330,59 +390,6 @@ footer {
   text-align: center;
   padding: 20px;
 
-  address {
-    color: white;
-    margin-bottom: 10px;
-  }
-
-  .redes-sociales {
-    p {
-      color: #ceeedb;
-    }
-
-    ul {
-      list-style-type: none;
-
-      li {
-        display: inline-block;
-        margin: 5px 8px;
-
-        a {
-          text-decoration: none;
-          color: #F5F5DC;
-        }
-
-        a :hover {
-          color: #FFEB3B;
-        }
-
-        span {
-          margin-left: 5px;
-        }
-      }
-    }
-  }
-
-  .telefono-mail {
-    ul {
-      list-style-type: none;
-
-      li {
-        display: inline-block;
-        margin: 4px 10px;
-
-        a {
-          text-decoration: none;
-          color: #F5F5DC;
-        }
-
-        a:hover {
-          color: #FFEB3B;
-        }
-      }
-    }
-
-  }
 
   small {
     color: #ceeedb;
