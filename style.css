@@ -108,6 +108,10 @@ h2 {
       text-align: center;
       padding: 10px 20px;
       width: 600px;
+
+      strong{
+        color: #A8D5BA;
+      }
     }
   }
 
@@ -187,15 +191,16 @@ h2 {
     }
   }
 
-  #eventos {
-
+  #servicios {
+ 
     ul {
       list-style: none;
+  text-align: center;
 
 
       li {
-        width: 500px;
-        padding: 5px;
+        width: 400px;
+        padding: 10px;
         display: inline-block;
         margin-bottom: 40px;
 
